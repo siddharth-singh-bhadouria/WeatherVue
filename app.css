@@ -4,12 +4,15 @@ body {
   height: 100vh;
   align-items: center;
   margin: 0;
-  background: #222;
+  background: #222
+    url("https://source.unsplash.com/random/900×700/?rain&clouds&lightning")
+    center/cover;
   font-family: "League Spartan", sans-serif;
 }
 
 .card {
-  background: #eaeaea;
+  background: #000000d0;
+  color: white;
   padding: 2em;
   border-radius: 30px;
   width: 100%;
