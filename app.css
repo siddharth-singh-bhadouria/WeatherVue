@@ -8,6 +8,7 @@ body {
     url("https://source.unsplash.com/random/900×700/?rain&clouds&lightning")
     center/cover;
   font-family: "League Spartan", sans-serif;
+  font-size: 120%;
 }
 
 .card {
@@ -33,8 +34,7 @@ button {
   height: 2.5em;
   width: 2.5em;
   outline: none;
-  background: #7c7c7c2b;
-  color: white;
+  background: #ffffff6b;
   cursor: pointer;
   transition: 0.1s ease-in-out;
 }
@@ -53,6 +53,7 @@ input {
   font-family: inherit;
   font-size: 120%;
   transition: 0.1s ease-in-out;
+  width: calc(100% - 100px);
 }
 
 input:hover {
