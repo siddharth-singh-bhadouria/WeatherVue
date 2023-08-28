@@ -31,8 +31,8 @@ button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
-  height: 2.5em;
-  width: 2.5em;
+  height: 3.3em;
+  width: 3.3em;
   outline: none;
   background: #ffffff6b;
   cursor: pointer;
@@ -46,7 +46,7 @@ button:hover {
 input {
   outline: none;
   border: none;
-  padding: 0.8em 1em;
+  padding: 0.5em 1em;
   border-radius: 24px;
   background: #7c7c7c2b;
   color: white;
@@ -58,4 +58,8 @@ input {
 
 input:hover {
   background: #7c7c7c6b;
+}
+
+.description {
+  text-transform: capitalize;
 }

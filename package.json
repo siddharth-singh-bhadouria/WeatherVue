@@ -1,0 +1,12 @@
+{
+  "name": "weather-report-app",
+  "version": "1.0.0",
+  "description": "WeatherVue is an innovative weather app showcasing dynamic weather updates at your fingertips. Experience a seamless blend of visual elegance and practical functionality, keeping you ahead of changing weather conditions. Stay informed, stay ready – explore the world of weather through an intuitive and captivating interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
