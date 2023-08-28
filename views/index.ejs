@@ -39,12 +39,14 @@
       </div>
 
       <div class="weather">
-        <h2 class="city">Weather in Lucknow</h2>
-        <h1 class="temp">51°C</h1>
-        <img src="" alt="" class="icon" />
-        <div class="description">Cloudy</div>
-        <div class="humidity">Humidity : 60%</div>
-        <div class="wind">Wind Speed : 6.2 km/hr</div>
+        <h2 class="city">Weather in <%=location %></h2>
+        <h1 class="temp"><%=temp_c%>°C</h1>
+        <img src="<%=icon%>" alt="" class="icon" />
+        <div class="description"><%= text %></div>
+        <br />
+        <div class="humidity">Humidity : <%=humidity %>%</div>
+        <br />
+        <div class="wind">Wind Speed : <%= wind_kph %> km/hr</div>
       </div>
     </div>
   </body>
