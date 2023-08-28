@@ -16,10 +16,12 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+// const externalLink =
+
 app.post("/", (req, res) => {
   const { location } = req.body;
-
-  console.log(req.body);
+  const weather = `http://api.weatherapi.com/v1/current.json?key=API_KEY&q=${location}`;
+  console.log(weather);
 });
 
 app.all("*", (req, res) => {
