@@ -63,3 +63,7 @@ input:hover {
 .description {
   text-transform: capitalize;
 }
+
+form {
+  display: flex inline;
+}
