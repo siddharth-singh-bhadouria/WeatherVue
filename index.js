@@ -16,9 +16,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/", async (req, res) => {
   try {
     const weather = await axios.get(
-      `http://api.weatherapi.com/v1/current.json?key=${process.env.API_KEY}&q=Delhi`
+      `http://api.weatherapi.com/v1/current.json?key=${process.env.API_KEY}&q=Lucknow`
     );
-    const location = "Delhi";
+    const location = "Lucknow";
     const { temp_c, humidity, wind_kph } = weather.data.current;
     const { text, icon } = weather.data.current.condition;
     res.render("index", { location, temp_c, humidity, wind_kph, text, icon });
